@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVGs</title>
+  <link rel="stylesheet" href="v_styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>All About SVGs</h1>
+    <nav>
+      <ul>
+        <li><a href="#about-svgs">What are SVGs?</a></li>
+        <li><a href="#svg-vs-others">Comparison</a></li>
+        <li><a href="#svg-features">Features</a></li>
+        <li><a href="#pros-of-svg">Pros</a></li>
+        <li><a href="#cons-of-svg">Cons</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#using-svg">When to Use SVG</a></li>
+        <li><a href="#code-demo">Code Demo</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+  <section id="about-svgs">
+    <h2>What are SVGs?</h2>
+    <ul>
+      <li>An SVG, short for Scalable Vector Graphic, is a standard file type that is primarily utilized for creating
+        crisp, two-dimensional images.</li>
+      <li>SVGs are vector-based images and because of this, they are known for maintaining optimized and crisp graphics
+        at any size they are scaled to.</li>
+      <li>Unlike other file types that may be raster-based, such as JPEGs or PNGs, SVGs are created with geometry. This
+        means they are defined using lines, shapes, curves, colours, and mathematical equations.</li>
+      <li>SVG files are written with XML (Extensible Markup Language). The XML code will specify all the geometrical
+        specifications (e.g., shapes, curves, lines, etc.) that make up the final image.</li>
+    </ul>
+    <section id="svg-vs-others">
+      <h2>SVG, JPEG, PNG, & GIF: What are the Differences?</h2>
+      <table>
+        <tr>
+          <th></th>
+          <th>SVG</th>
+          <th>JPEG</th>
+          <th>PNG</th>
+          <th>GIF</th>
+        </tr>
+        <tr>
+          <th>Format</th>
+          <td>Vector-based</td>
+          <td>Raster-based</td>
+          <td>Compressed raster-based</td>
+          <td>Graphics Interchange format</td>
+        </tr>
+        <tr>
+          <th>Transparency?</th>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <th>Storage Space</th>
+          <td>Very small?</td>
+          <td>Large</td>
+          <td>Largest</td>
+          <td>Largest</td>
+        </tr>
+        <tr>
+          <th>Strengths</th>
+          <td>Icons, logos, infographics</td>
+          <td>Photo realistic images</td>
+          <td>Icons, logos</td>
+          <td>Tutorials, demos, memes</td>
+        </tr>
+      </table>
+    </section>
+    <section id="svg-features">
+      <h2>Features of SVGs</h2>
+      <div class="parent-div">
+        <div>
+          <h2>
+            Scalability
+          </h2>
+          <p>
+            SVGs are ideal for high-resolution displays and responsive web design where the size of graphical elements
+            can
+            change based on the device's screen size.
+          </p>
+        </div>
+        <div>
+          <h2>
+            Manipulation with CSS and JS
+          </h2>
+          <p>
+            SVGs can be styled and animated with CSS, and they can be scripted with JavaScript, allowing for interactive
+            and
+            dynamic graphic content in web pages.
+          </p>
+        </div>
+        <div>
+          <h2>
+            Search Engine Indexable
+          </h2>
+          <p>
+            Since they are XML files, the text inside SVG files can be indexed and searched by search engines, which can
+            be
+            beneficial for SEO purposes.
+          </p>
+        </div>
+        <div>
+          <h2>
+            Printable and Downloadable
+          </h2>
+          <p>
+            SVGs are resolution-independent, which makes them perfectly sharp at any size of print, and they can be
+            downloaded
+            quickly due to their typically smaller file sizes compared to high-resolution bitmap images.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="pros-of-svg">
+      <h2>Pros of SVG</h2>
+      <ul>
+        <li><strong>Scalability:</strong> SVGs can be scaled to any size without loss of quality.</li>
+        <li><strong>Interactivity:</strong> SVGs can be animated and scripted using JavaScript.</li>
+        <li><strong>Accessibility:</strong> SVGs can be styled and modified using CSS, making them accessible and
+          SEO-friendly.</li>
+        <li><strong>Small File Size:</strong> SVGs are often smaller in file size compared to raster images, especially
+          for simple graphics.</li>
+      </ul>
+      </section>
+      <section id="cons-of-svg">
+      <h2>Cons of SVG</h2>
+      <ul>
+        <li><strong>Complexity:</strong> Complex images or illustrations may result in large and complex SVG code.</li>
+        <li><strong>Browser Compatibility:</strong> While most modern browsers support SVG, older versions may have
+          limited support.</li>
+        <li><strong>Not Ideal for Photographs:</strong> SVGs are not suitable for detailed or photographic images; they
+          are better suited for logos, icons, and simple graphics.</li>
+      </ul>
+    </section>
+    <section id="accessibility">
+      <h2>Accessibility Features</h2>
+      <p>SVGs can be more accessible than other image formats.</p>
+      <ul>
+        <li><strong>DOM Accessible:</strong> XML code can be reached through the DOM for screen readers and other aids</li>
+        <li><strong>Resolution Independent:</strong> Infinitely scalable for users with low vision</li>
+        <li><strong>Stylable:</strong> Easy to create accessible colour palettes</li>
+        <li><strong>Granularity:</strong> Supports alt text for individual components within the SVG</li>
+      </ul>
+    <section id="using-svg">
+      <h2>When to Use SVG</h2>
+      <p>SVGs are ideal for various scenarios:</p>
+      <ul>
+        <li><strong>Icons and Logos:</strong> SVGs are perfect for small graphics like icons and logos.</li>
+        <li><strong>Data Visualization:</strong> SVGs are often used for creating interactive and dynamic charts and graphs.</li>
+        <li><strong>Responsive Design:</strong> SVGs work well in responsive web design due to their scalability.</li>
+        <li><strong>Animations:</strong> SVGs support animations, making them suitable for interactive and animated content.</li>
+      </ul>
+    </section>
+    <section id="code-section">
+      <h2>Code Demo</h2>
+      <p>Since an SVG is code rather than just data, it's simple to edit a file in your code editor or to write the SVG code inline in your html. However, as code it also becomes a part of the Document Object Model, thus an externally loaded SVG can be accessed directly through Javascript alone.</p><br>
+      <p>First, we load the SVG in the HTML not as an img src but with an external object element:</p>
+      <pre>
+        <code>
+          &lt;object id="svg-obj" data="fwd.svg" type="image/svg+xml" width="500" height="500"&gt;&lt;/object&gt;
+        </code>
+      </pre><br>
+      <p>Then, in Javascript, we can grab the SVG object through the HTML id:</p>
+      <pre>
+        <code>
+          const svgObject = document.getElementById('svg-obj');
+        </code>
+      </pre><br>
+      <p>This code snippet is a function which will iterate a number forward <span>&#8212;</span> a number which exists inside a text element within the SVG:</p>
+      <pre>
+        <code>
+          function iterateCohort() {
+            const currentCohort = parseInt(cohortNum[0].textContent);
+            const newCohort = currentCohort + 1;
+            cohortNum[0].textContent = newCohort;
+          }
+        </code>
+      </pre><br>
+      <p>The following function cycles through an array of different colour palettes and then applies them to the shapes and text within the SVG:
+      <pre>
+        <code>
+          function recolorImg() {
+            const currentPalette = palettes[currentPaletteNum];
+            fwdText.forEach(shape => {
+                shape.style.fill = currentPalette.shape;
+            });
+            cohortNum[0].style.fill = currentPalette.text;
+            currentPaletteNum = (currentPaletteNum + 1) % palettes.length;
+          }
+        </code>
+      </pre><br>
+      <p>However, in order for the SVG object to be fully loaded and accessible in the DOM for these functions, we must wrap them and the rest of our Javascript in event listeners:</p>
+      <pre>
+        <code>
+          document.addEventListener('DOMContentLoaded', function () {
+          
+            // ...Javascript...
+
+            svgObject.addEventListener('load', function () {
+
+              // ...Functions...
+
+            });
+          });
+        </code>
+      </pre><br>
+      <p>See for yourself:</p><br>
+    <div id="code-demo">
+      <a href="svgcode/index.html">Demonstration</a>
+    </div>
+  </section>
+</main>
+  <footer>
+  <p>By: Hayden, Gray, Carolyn, and Veronica</p>
+</footer>
+</body>
+
+</html>

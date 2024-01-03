@@ -1,0 +1,19 @@
+body {
+    background-color: #afaeae;
+}
+
+#fwd {
+    display: grid;
+    place-items: center;
+    height: 60vh;
+}
+
+#iterate,
+#recolor {
+    display: grid;
+    margin: auto;
+}
+  
+#img-link {
+    text-align: center;
+}
