@@ -106,6 +106,7 @@ main ul,
   padding: 1.5rem;
   border-radius: 8px;
   text-align: left;
+  line-height: 1.5rem;
 }
 
 #code-section p {
