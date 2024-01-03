@@ -21,7 +21,7 @@ main{
 } */
 
 header, section, nav, footer,h2, table { 
-  display: grid;
+  /* display: grid; */
   grid-column: 2 / span 2; 
   text-align: center;
 }
