@@ -10,6 +10,7 @@ body {
   color: white;
 }
 
+/* 
 main{
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
@@ -17,9 +18,10 @@ main{
   gap: 20px;
   justify-content: center;
   align-items: start;
-}
+} */
 
 header, section, nav, footer,h2, table { 
+  display: grid;
   grid-column: 2 / span 2; 
   text-align: center;
 }
@@ -65,7 +67,11 @@ nav ul li a:hover {
 
 table {
   margin: 0 auto;
-  border: 1px solid white;;
+  border: 1px solid white;
+}
+
+.table{
+  overflow-x: scroll;
 }
 
 tr {
@@ -119,6 +125,7 @@ pre {
   background-color: #afaeae;
   text-align: left;
   border-radius: 8px;
+  white-space: pre-wrap;
 }
 
 
